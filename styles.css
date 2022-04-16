@@ -77,3 +77,10 @@ ul {
     gap: 1em;
 }
 
+.about {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.title {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
