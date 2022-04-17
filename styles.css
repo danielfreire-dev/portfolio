@@ -22,9 +22,11 @@ body {
 #right {
     display: flex;
     flex-flow: column wrap;
-    background-color: #282c34;
-    padding: 2em;
-    color: #df4a16;
+    background-color: #091924;
+    padding: 0 7em;
+    color: #e96434;
+    text-align: justify;
+    font-size: 1.2em;
 }
 
 .name {
@@ -33,7 +35,6 @@ body {
     font-weight: 400;
     margin-bottom: 0.5em;
     align-items: center;
-
 }
 
 
@@ -53,9 +54,8 @@ body {
 #profile-photo {
     width: 66%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 43% 57% 19% 81% / 50% 79% 21% 50%;
     margin-bottom: 1em;
-
 }
 
 ul {
@@ -64,10 +64,17 @@ ul {
     padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
 .links {
     display: flex;
     align-items: left;
+    font-family: 'JetBrains Mono', monospace;
 }
+
 .social-links{
     width: 100%;
     display: flex;
@@ -81,6 +88,9 @@ ul {
     font-family: 'JetBrains Mono', monospace;
 }
 
-.title {
-    font-family: 'IBM Plex Sans', sans-serif;
+.about a {
+    color: #4E563F;
+    text-decoration: none;
 }
+
+
