@@ -88,31 +88,57 @@
         <h1>Daniel Freire</h1>
       </div> -->
       <div class="div">
-        <h2>HOME</h2>
-        <p class="about">
-          Hi, I’m glad you’re here.
-          <br /><br />
-          I’m Daniel Freire, a Portuguese Digital Marketeer and Web Developer.
-          <br /><br />
-          As the Founder and CMO of
-          <a href="https://zany.pt" target="_blank"> Zany Marketing</a> I’ve had
-          the chance to work on a broad variety of projects and industries. It
-          made me much more adaptable and flexible, able to quickly jump on new
-          topics and find solutions from various industries. <br /><br />
-          I’m a self-taught developer with a passion for web development and a
-          strong desire to learn new things.
-          <br /><br />
-          I’ve built this website so I can share my work and experience with
-          you.
-          <br /><br />
-          If you’re interested in catching up, come say hello at
-          <a
-            href="mailto:daniel.freire@zany.pt
-          ?
-          subject=Personal%20Portfolio&body=Hello%20Daniel%20I%20love%20your%20work"
-            >daniel.freire@zany.pt</a
-          >.
-        </p>
+        <h1>Registration Form</h1>
+        <p>Please fill out this form with the required information</p>
+        <form action="">
+          <fieldset>
+            <label
+              >Enter Your Name:
+              <input
+                type="text"
+                name="name"
+                placeholder="Daniel Freire"
+                required
+            /></label>
+            <br /><br />
+            <label
+              >Enter Your Email:
+              <input
+                type="email"
+                name="email"
+                placeholder="daniel.freire@zany.pt"
+                required
+            /></label>
+            <br />
+          </fieldset>
+          <fieldset>
+            <p>Are you an Individual or a Business?</p>
+            <label
+              ><input type="radio" name="account-type" class="inline" />
+              Individual</label
+            >
+            <label
+              ><input type="radio" name="account-type" class="inline" />
+              Business</label
+            >
+            <br /><br />
+            <label
+              >Send a message:
+              <textarea
+                name="bio"
+                rows="3"
+                cols="30"
+                placeholder="Send a message:"
+              ></textarea>
+            </label>
+            <br /><br />
+            <label>
+              <input type="checkbox" name="terms" class="inline" required /> I
+              accept the <a href="">terms and conditions</a>.
+            </label>
+          </fieldset>
+          <input type="submit" value="Submit" />
+        </form>
       </div>
     </section>
   </body>
