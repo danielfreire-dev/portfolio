@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  margin: 0;
   display: flex;
   flex-direction: row;
   min-height: 100vh;
@@ -107,6 +108,14 @@ h6 {
   font-weight: 500;
 }
 
+p {
+  font-size: 1.2em;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  margin: 0.5em 0;
+  justify-content: justify;
+}
+
 .links {
   display: flex;
   align-items: left;
@@ -131,4 +140,25 @@ h6 {
 ::selection {
   color: white;
   background: #574a48;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  align-items: left;
+  justify-content: left;
+}
+form {
+  display: flex;
+  flex-flow: column wrap;
+  font-family: "JetBrains Mono", monospace;
+  gap: 1em;
+  padding: 0 2em;
+  background-color: #091924;
+  color: #e96434;
+  text-align: justify;
+  font-size: 1em;
+  padding-bottom: 1.5em;
+  align-items: left;
 }
