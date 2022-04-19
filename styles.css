@@ -28,6 +28,16 @@ body {
     padding: 2vw;
   }
 
+  :is(#sidebar) ::-moz-selection {
+    color: white;
+    background: #84362a;
+  }
+
+  :is(#sidebar) ::selection {
+    color: white;
+    background: #84362a;
+  }
+
   .name {
     font-family: "Kolker Brush", cursive;
     font-size: 4em;
