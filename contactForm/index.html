@@ -102,6 +102,7 @@
               <input
                 type="text"
                 name="name"
+                pattern="[A-Za-z]+"
                 placeholder="Daniel Freire"
                 required
             /></label>
@@ -115,18 +116,6 @@
                 placeholder="daniel.freire@zany.pt"
                 required
             /></label>
-            <br />
-          </fieldset>
-          <fieldset>
-            <p>Are you an Individual or a Business?</p>
-            <label
-              ><input type="radio" name="account-type" class="inline" />
-              Individual</label
-            >
-            <label
-              ><input type="radio" name="account-type" class="inline" />
-              Business</label
-            >
             <br /><br />
             <label
               >Send a message:
@@ -135,7 +124,7 @@
                 name="bio"
                 rows="3"
                 cols="30"
-                placeholder="Hey Daniel, you are awesome!"
+                placeholder="Hey Daniel, you are awesome. Let's talk!"
               ></textarea>
             </label>
             <br /><br />
