@@ -15,6 +15,18 @@ body {
 }
 
 @media (min-width: 768px) {
+  #right {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #091924;
+    padding: 0 3vw;
+    color: #e96434;
+    text-align: justify;
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 768px) {
   #sidebar {
     display: flex;
     flex: 1 20vw;
@@ -26,16 +38,6 @@ body {
     background-size: cover;
     color: #282c34;
     padding: 2vw;
-  }
-
-  :is(#sidebar) ::-moz-selection {
-    color: white;
-    background: #84362a;
-  }
-
-  :is(#sidebar) ::selection {
-    color: white;
-    background: #84362a;
   }
 
   .name {
@@ -78,21 +80,11 @@ body {
     display: flex;
     flex-flow: column wrap;
     background-color: #091924;
-    padding: 0 vw;
+    padding: 0 1em;
     color: #e96434;
     text-align: justify;
     font-size: 1.2em;
   }
-}
-
-#right {
-  display: flex;
-  flex-flow: column wrap;
-  background-color: #091924;
-  padding: 0 13vw;
-  color: #e96434;
-  text-align: justify;
-  font-size: 1.2em;
 }
 
 h1 {
@@ -137,7 +129,17 @@ h6 {
   background: #574a48;
 }
 
+:is(#sidebar) ::-moz-selection {
+  color: white;
+  background: #84362a;
+}
+
 ::selection {
   color: white;
   background: #574a48;
+}
+
+:is(#sidebar) ::selection {
+  color: white;
+  background: #84362a;
 }
