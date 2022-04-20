@@ -15,6 +15,16 @@ body {
   display: none;
 }
 
+#right {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #091924;
+  padding: 0 10vw;
+  color: #e96434;
+  text-align: justify;
+  font-size: 1.2em;
+}
+
 @media (min-width: 768px) {
   #sidebar {
     display: flex;
@@ -27,16 +37,6 @@ body {
     background-size: cover;
     color: #282c34;
     padding: 2vw;
-  }
-
-  :is(#sidebar) ::-moz-selection {
-    color: white;
-    background: #84362a;
-  }
-
-  :is(#sidebar) ::selection {
-    color: white;
-    background: #84362a;
   }
 
   .name {
@@ -75,16 +75,15 @@ body {
     justify-content: center;
     gap: 1em;
   }
-}
-
-#right {
-  display: flex;
-  flex-flow: column wrap;
-  background-color: #091924;
-  padding: 0 7em;
-  color: #e96434;
-  text-align: justify;
-  font-size: 1.2em;
+  #right {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #091924;
+    padding: 0 8vw;
+    color: #e96434;
+    text-align: justify;
+    font-size: 1.2em;
+  }
 }
 
 h1 {
