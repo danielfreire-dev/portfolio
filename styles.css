@@ -14,12 +14,12 @@ body {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #right {
     display: flex;
     flex-flow: column wrap;
     background-color: #091924;
-    padding: 0 3vw;
+    padding: 0 7vw;
     color: #e96434;
     text-align: justify;
     font-size: 1.2em;
