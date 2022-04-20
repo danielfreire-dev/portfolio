@@ -74,13 +74,22 @@ body {
     justify-content: center;
     gap: 1em;
   }
+  #right {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #091924;
+    padding: 0 vw;
+    color: #e96434;
+    text-align: justify;
+    font-size: 1.2em;
+  }
 }
 
 #right {
   display: flex;
   flex-flow: column wrap;
   background-color: #091924;
-  padding: 0 5em;
+  padding: 0 13vw;
   color: #e96434;
   text-align: justify;
   font-size: 1.2em;
