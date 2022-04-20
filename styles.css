@@ -14,16 +14,14 @@ body {
   display: none;
 }
 
-@media (max-width: 768px) {
-  #right {
-    display: flex;
-    flex-flow: column wrap;
-    background-color: #091924;
-    padding: 0 10vw;
-    color: #e96434;
-    text-align: justify;
-    font-size: 1.2em;
-  }
+#right {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #091924;
+  padding: 0 10vw;
+  color: #e96434;
+  text-align: justify;
+  font-size: 1.2em;
 }
 
 @media (min-width: 768px) {
