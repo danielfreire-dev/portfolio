@@ -5,6 +5,8 @@
   margin: 0;
 }
 
+:root {#e96434: #e96434; --background-color: #091924; --link-color: #4e563f;}
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;

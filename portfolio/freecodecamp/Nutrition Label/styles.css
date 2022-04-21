@@ -3,6 +3,8 @@
   box-sizing: border-box;
 }
 
+:root {#e96434: #e96434; --background-color: #091924; --link-color: #4e563f;}
+
 html {
   font-size: 16px;
 }

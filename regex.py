@@ -1,9 +1,9 @@
 import os, fnmatch
 
 # Find and replace in files in a directory
-ogText = "<a href=\"/contactForm/index.html\">Let\'s Talk\!</a>"
+ogText = "--font-color"
 
-newText = "<a href=\"/contactForm/index.html\">Let\'s Talk!</a>"
+newText = "#e96434"
 
 
 #The Function
@@ -18,5 +18,5 @@ def findReplace(directory, find, replace, filePattern):
                 f.write(s)
 
 #The Order
-findReplace("/home/zany/Documents/portfolio/", ogText, newText, "*.html")
+findReplace("/home/zany/Documents/portfolio/", ogText, newText, "*.css")
 
