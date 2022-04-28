@@ -1,9 +1,9 @@
 import os, fnmatch
 
 # Find and replace in files in a directory
-ogText = ".webp"
+ogText = "flex-shrink: 0;"
 
-newText = ".svg"
+newText = "flex-shrink: 0;\nflex-grow: 0;"
 
 
 #The Function
@@ -18,4 +18,4 @@ def findReplace(directory, find, replace, filePattern):
                 f.write(s)
 
 #The Order
-findReplace("/home/zany/Documents/portfolio/", ogText, newText, "*.html")
+findReplace("/home/zany/Documents/portfolio/", ogText, newText, "*.css")
