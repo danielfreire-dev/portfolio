@@ -1,9 +1,9 @@
 import os, fnmatch
 
 # Find and replace in files in a directory
-ogText = "flex-shrink: 0;"
+ogText = "<img \s id=\"profile-photo\"\s src=\"/img/photo.svg \"\s/>"
 
-newText = "flex-shrink: 0;\nflex-grow: 0;"
+newText = "<a href=\"/index.html\"><img id=\"profile-photo\" src=\"/img/photo.svg\" alt=\"profile picture\"/></a>"
 
 
 #The Function
@@ -18,4 +18,4 @@ def findReplace(directory, find, replace, filePattern):
                 f.write(s)
 
 #The Order
-findReplace("/home/zany/Documents/portfolio/", ogText, newText, "*.css")
+findReplace("/home/zany/Documents/portfolio/", ogText, newText, "*.html")
