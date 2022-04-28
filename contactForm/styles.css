@@ -170,6 +170,7 @@ form {
   font-size: 1em;
   padding-bottom: 1.5em;
   align-items: left;
+  justify-content: left;
 }
 
 input:not([type="checkbox"]) {
