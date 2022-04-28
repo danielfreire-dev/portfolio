@@ -21,6 +21,10 @@ body {
   display: none;
 }
 
+#sidebar {
+  display: none;
+}
+
 #right {
   display: flex;
   flex-flow: column wrap;
