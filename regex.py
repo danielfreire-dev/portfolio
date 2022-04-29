@@ -1,9 +1,9 @@
 import os, fnmatch
 
 # Find and replace in files in a directory
-ogText = "<img \s id=\"profile-photo\"\s src=\"/img/photo.svg \"\s/>"
+ogText = "Marketeer and a Web Developer"
 
-newText = "<a href=\"/index.html\"><img id=\"profile-photo\" src=\"/img/photo.svg\" alt=\"profile picture\"/></a>"
+newText = "Brand Builder"
 
 
 #The Function
