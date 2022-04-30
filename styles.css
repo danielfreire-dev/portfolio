@@ -28,7 +28,7 @@ body {
   padding: 0 10vw;
   color: #e96434;
   text-align: justify;
-  font-size: 1.2em;
+  font-size: 1.7em;
 }
 
 @media (min-width: 768px) {
@@ -45,11 +45,12 @@ body {
     background-size: cover;
     color: #282c34;
     padding: 2vw;
+    font-size: 1.2vw;
   }
 
   .name {
     font-family: "Kolker Brush", cursive;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: 400;
     margin-bottom: 0.5em;
     align-items: center;
@@ -90,12 +91,12 @@ body {
     padding: 0 8vw;
     color: #e96434;
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.7em;
   }
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.3em;
   margin: 0.67em 0;
 }
 
@@ -103,6 +104,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 1.2em;
 }
 
 h1,
