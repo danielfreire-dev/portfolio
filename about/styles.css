@@ -28,7 +28,7 @@ body {
   padding: 0 10vw;
   color: #e96434;
   text-align: justify;
-  font-size: 1.2em;
+  font-size: 1.7em;
 }
 
 @media (min-width: 768px) {
@@ -45,11 +45,12 @@ body {
     background-size: cover;
     color: #282c34;
     padding: 2vw;
+    font-size: 1.2em;
   }
 
   .name {
     font-family: "Kolker Brush", cursive;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: 400;
     margin-bottom: 0.5em;
     align-items: center;
@@ -66,13 +67,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-top: 1em;
   }
 
   #profile-photo {
     width: 66%;
     height: auto;
     border-radius: 43% 57% 19% 81% / 50% 79% 21% 50%;
-    margin-bottom: 1em;
   }
 
   .social-links {
@@ -90,7 +92,7 @@ body {
     padding: 0 8vw;
     color: #e96434;
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.7em;
   }
 }
 
