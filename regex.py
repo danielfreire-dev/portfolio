@@ -1,9 +1,9 @@
 import os, fnmatch
 
 # Find and replace in files in a directory
-ogText = "Marketeer and a Web Developer"
+ogText = "contactForm"
 
-newText = "Brand Builder"
+newText = "contacts"
 
 
 #The Function
