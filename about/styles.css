@@ -1,5 +1,5 @@
 :root {
-  #e96434: #e96434;
+  --font-color: #e96434;
   --background-color: #091924;
   --link-color: #4e563f;
 }
@@ -97,7 +97,7 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.3em;
   margin: 0.67em 0;
 }
 
@@ -105,6 +105,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 1.2em;
 }
 
 h1,
@@ -138,7 +139,17 @@ h6 {
   background: #574a48;
 }
 
+:is(#sidebar) ::-moz-selection {
+  color: white;
+  background: #84362a;
+}
+
 ::selection {
   color: white;
   background: #574a48;
+}
+
+:is(#sidebar) ::selection {
+  color: white;
+  background: #84362a;
 }
