@@ -16,6 +16,21 @@ body {
   margin: 0;
 }
 
+#mobileBar {
+  overflow: hidden;
+  display: flex;
+  background-color: #e96434;
+  color: #091924;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 #sidebar {
   display: none;
 }
@@ -32,6 +47,10 @@ body {
 }
 
 @media (min-width: 768px) {
+  #mobileBar {
+    display: none;
+  }
+
   #sidebar {
     display: flex;
     flex: 1 20vw;
@@ -106,6 +125,13 @@ ul {
   margin: 0;
   padding: 0;
   font-size: 1.2em;
+}
+
+#mobile-menu .mob-links {
+  display: none;
+  /** display: flex;**/
+  align-items: left;
+  font-family: "JetBrains Mono", monospace;
 }
 
 h1,

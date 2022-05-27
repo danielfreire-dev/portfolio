@@ -89,6 +89,20 @@
       </div>
     </section>
 
+    <section id="mobileBar" loading="lazy">
+      <div class="mobile-menu">
+        <a href="/index.html" class="active">Daniel Freire</a>
+        <div class="mob-links">
+          <a href="/about/index.html">About</a>
+          <a href="/portfolio/index.html">Portolio</a>
+          <a href="/contacts/index.html">Let's talk!</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </section>
+
     <section id="right">
       <div class="div">
         <h2>HOME</h2>
@@ -113,6 +127,16 @@
         </p>
       </div>
     </section>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mob-links");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
     <!-- Cloudflare Web Analytics -->
     <script
       defer
