@@ -181,7 +181,7 @@ figure figcaption {
 #aside #main-menu ul li a:after {
   content: "";
   position: absolute;
-  /**height: 2px;*/
+  height: 2px;
   bottom: 7px;
   left: 10px;
   right: 10px;
