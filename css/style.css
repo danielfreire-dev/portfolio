@@ -103,8 +103,8 @@ figure figcaption {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 1.6em;
+  padding-bottom: 1.5em;
   width: 20%;
   position: fixed;
   bottom: 0;
@@ -132,7 +132,6 @@ figure figcaption {
   }
 }
 .picture {
-  margin-top: 1em;
   text-align: center;
 }
 
