@@ -179,12 +179,12 @@ figure {
   background: $brand-primary;
 }
 
-#fh5co-page {
+#page {
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-#fh5co-aside {
+#aside {
 	padding-top: 60px;
 	padding-bottom: 40px;
 	width: 20%;
@@ -202,7 +202,7 @@ figure {
 		width: 270px;
 		@include translateX(-270px);
 	}
-	#fh5co-logo {
+	#logo {
 		text-align: center;
 		font-family: $font-primary;
 		font-weight: 700;
@@ -220,7 +220,7 @@ figure {
 			}
 		}
 	}
-	#fh5co-main-menu {
+	#main-menu {
 		ul {
 			text-align: center;
 			margin: 0;
@@ -278,7 +278,7 @@ figure {
 						}
 					}
 				}
-				&.fh5co-active {
+				&.active {
 					a {
 						color: rgba(0,0,0,1);
 						&:after {
@@ -294,7 +294,7 @@ figure {
 			}
 		}
 	}
-	.fh5co-footer {
+	.footer {
 		position: absolute;
 		bottom: 40px;
 		font-size: 14px;
@@ -333,7 +333,7 @@ figure {
 	}
 }
 
-#fh5co-main {
+#main {
 	width: 80%;
 	float: right;
 	@include transition(.5s);
@@ -343,7 +343,7 @@ figure {
 	@media screen and (max-width: $screen-sm) {
 		width: 100%;
 	}
-	.fh5co-narrow-content {
+	.narrow-content {
 		position: relative;
 		width: 93%;
 		margin: 0 auto;
@@ -357,7 +357,7 @@ figure {
 }
 
 
-#fh5co-hero {
+#hero {
 	min-height: 500px;
 	background: $brand-white url(../images/loader.gif) no-repeat center center;
 	width: 100%;
@@ -465,7 +465,7 @@ figure {
 						font-size: 30px;
 					}
 				}s
-				.fh5co-lead{
+				.lead{
 					font-size: 20px;
 					color: $brand-white;
 					.icon-heart {
@@ -503,7 +503,7 @@ figure {
 
 }
 
-.fh5co-bg-color{
+.bg-color{
 	width: 100%;
 	float: left;
 	background: $brand-white;
@@ -512,14 +512,14 @@ figure {
 body {
 	&.offcanvas {
 		overflow-x: hidden;
-		#fh5co-aside {
+		#aside {
 			@include translateX(0);
 			width: 270px;
 			background: $brand-white;
 			z-index: 999;
 			position: fixed;
 		}
-		#fh5co-main, .fh5co-nav-toggle {
+		#main, .nav-toggle {
 			top: 0;
 			@include translateX(270px);
 		}
@@ -527,7 +527,7 @@ body {
 }
 
 
-.fh5co-services {
+.services {
 	margin-top: 5px;
 	ul {
 		list-style: none;
@@ -678,23 +678,23 @@ body {
 }
 
 
-.fh5co-lead {
+.lead {
 	font-size: 18px;
 	line-height: 1.5;
 }
-.fh5co-heading-colored {
+.heading-colored {
 	color: $brand-primary;
 	font-size: 30px;
 }
 
-.fh5co-cards {
+.cards {
 	padding: 1em 0;
 	background: lighten($brand-black, 90%);
 	@media screen and (max-width: $screen-sm) {
 		padding: 1em 0;
 	}
 
-	.fh5co-flex-wrap {
+	.flex-wrap {
 		@include flex();
 		@include flexwrap();
 		> div {
@@ -715,7 +715,7 @@ body {
 				margin-right: 0;
 			}
 		}
-		.fh5co-card {
+		.card {
 			p:last-child {
 				margin-bottom: 0;
 			}
@@ -732,15 +732,15 @@ body {
 }
 
 
-.fh5co-counter {
-	.fh5co-number {
+.counter {
+	.number {
 		font-size: 100px;
 		color: $brand-primary;
 		font-weight: 400;
 		margin: 0;
 		padding: 0;
 		line-height: .7;
-		&.fh5co-left {
+		&.left {
 			float: left;
 			width: 30%;
 			@media screen and (max-width: $screen-sm) {
@@ -749,7 +749,7 @@ body {
 			}
 		}
 	}
-	.fh5co-text {
+	.text {
 		float: right;
 		text-align: left;
 		width: 70%;
@@ -771,7 +771,7 @@ body {
 	}
 }
 
-.fh5co-social {
+.social {
 	padding: 0;
 	margin: 0;
 	text-align: center;
@@ -810,18 +810,18 @@ body {
 	}
 }
 
-.fh5co-more-contact {
+.more-contact {
 	background: lighten($brand-black, 98%);	
 }
 
 
-.fh5co-feature {
+.feature {
 	text-align: left;
 	width: 100%;
 	float: left;
 	margin-bottom: 40px;
 	position: relative;
-	.fh5co-icon {
+	.icon {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -842,7 +842,7 @@ body {
 			}
 		}
 	}
-	.fh5co-text {
+	.text {
 		padding-left: 120px;
 		width: 100%;
 		h2, h3 {
@@ -858,11 +858,11 @@ body {
 			text-transform: uppercase;
 		}
 	}
-	&.fh5co-feature-sm {
-		.fh5co-text {
+	&.feature-sm {
+		.text {
 			margin-top: 30px;
 		}
-		.fh5co-icon {
+		.icon {
 			i {
 				color: $brand-primary;
 				font-size: 40px;
@@ -874,13 +874,13 @@ body {
 	}
 }
 
-.fh5co-heading {
+.heading {
 	font-size: 18px;
 	margin-bottom: 2em;
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	&.fh5co-light {
+	&.light {
 		color: $brand-white;
 	}
 	span {
@@ -1043,7 +1043,7 @@ body {
 
 
 // Burger Menu
-.fh5co-nav-toggle {
+.nav-toggle {
   cursor: pointer;
   text-decoration: none;
   &.active i {
@@ -1097,22 +1097,22 @@ body {
   }
 }
 
-.fh5co-nav-toggle i::before {
+.nav-toggle i::before {
   top: -7px;
 }
-.fh5co-nav-toggle i::after {
+.nav-toggle i::after {
   bottom: -7px;
 }
-.fh5co-nav-toggle:hover i::before {
+.nav-toggle:hover i::before {
   top: -10px;
 }
-.fh5co-nav-toggle:hover i::after {
+.nav-toggle:hover i::after {
   bottom: -10px;
 }
-.fh5co-nav-toggle.active i {
+.nav-toggle.active i {
 	background: transparent;
 }
-.fh5co-nav-toggle.active i::before {
+.nav-toggle.active i::before {
   top:0;
   -webkit-transform: rotateZ(45deg);
      -moz-transform: rotateZ(45deg);
@@ -1120,7 +1120,7 @@ body {
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.fh5co-nav-toggle.active i::after {
+.nav-toggle.active i::after {
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
      -moz-transform: rotateZ(-45deg);
@@ -1128,7 +1128,7 @@ body {
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.fh5co-nav-toggle {
+.nav-toggle {
   	position: fixed;
   	left: 0;
 	top: 0px;

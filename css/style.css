@@ -100,6 +100,9 @@ figure figcaption {
 }
 
 #aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   padding-top: 60px;
   padding-bottom: 40px;
   width: 20%;
@@ -128,12 +131,24 @@ figure figcaption {
     transform: translateX(-270px);
   }
 }
+.picture {
+  margin-top: 1em;
+  text-align: center;
+}
+
+#profile-photo {
+  width: 50%;
+  height: auto;
+  border-radius: 43% 57% 19% 81% / 50% 79% 21% 50%;
+}
 #aside #logo {
   text-align: center;
   font-family: "Kolker Brush", cursive, Arial, sans-serif;
   font-weight: 400;
-  margin-bottom: 2em;
   font-size: 5em;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
 }
 @media screen and (max-width: 768px) {
   #aside #logo {
@@ -155,7 +170,7 @@ figure figcaption {
 }
 @media screen and (max-width: 768px) {
   #aside #main-menu ul {
-    margin: 0 0 2em 0;
+    margin: 0 0 0 0;
   }
 }
 #aside #main-menu ul li {
@@ -222,7 +237,7 @@ figure figcaption {
   transform: scaleX(1);
 }
 #aside .footer {
-  position: absolute;
+  align-self: self-end;
   bottom: 40px;
   font-size: 14px;
   text-align: center;
@@ -237,8 +252,11 @@ figure figcaption {
     bottom: 0;
   }
 }
-#aside .footer span {
+/**#aside .footer span {
   display: block;
+}*/
+footer {
+  margin-top: auto;
 }
 #aside .footer ul {
   padding: 0;
@@ -1065,7 +1083,7 @@ body.offcanvas .nav-toggle {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   width: 30px;
   height: 2px;
   color: #000;
