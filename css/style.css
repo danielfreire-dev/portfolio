@@ -136,7 +136,7 @@ figure figcaption {
 }
 
 #profile-photo {
-  width: 50%;
+  width: 10em;
   height: auto;
   border-radius: 43% 57% 19% 81% / 50% 79% 21% 50%;
 }
@@ -313,7 +313,7 @@ footer {
 
 #hero {
   min-height: 500px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  background: #fff url(#) no-repeat center center;
   width: 100%;
   float: left;
   clear: both;
