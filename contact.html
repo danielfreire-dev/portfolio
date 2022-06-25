@@ -188,7 +188,8 @@
                         id="phone"
                         type="tel"
                         name="phone"
-                        pattern="\[0-9+\s\-\(\)]*\"
+                        pattern="\^[\d+\s\-\(\)]*\"
+                        onkeyup="this.value = this.value.replace(/[^0-9+-()]/g, '')"
                         class="form-control"
                         placeholder="Phone"
                       />
