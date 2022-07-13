@@ -1,9 +1,9 @@
 import os, fnmatch
 
 # Find and replace in files in a directory
-ogText = "fh5co-"
+ogText = "https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@100;300;400;500;700&display=swap"
 
-newText = ""
+newText = "https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Roboto:wght@100;300;400;500;700&display=swap">
 
 
 #The Function
