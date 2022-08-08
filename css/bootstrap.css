@@ -16,7 +16,6 @@ body {
 }
 
 article,
-aside,
 details,
 figcaption,
 figure,
@@ -29,6 +28,12 @@ nav,
 section,
 summary {
   display: block;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
 
 audio,
