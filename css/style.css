@@ -15,6 +15,106 @@
 *	Edit this section
 *
 * ======================================================= */
+#loader {
+  position: fixed;
+  z-index: 9999999;
+  background: #fff;
+  width: 100vw;
+  height: 100%;
+}
+#preloader {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50px;
+  width: 50px;
+  margin: -25px 0 0 -25px;
+  border: 2px solid transparent;
+  border-top-color: #f27a3d;
+  box-shadow: 0 0 5px skyblue;
+  border-radius: 50%;
+  -webkit-animation: spin9 1.5s ease infinite;
+  animation: spin9 1.5s ease infinite;
+}
+
+#preloader::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  bottom: 7px;
+  left: 7px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  border-top-color: #f27a3d;
+  box-shadow: 0 0 5px skyblue;
+  -webkit-animation: spin9_x 1s linear infinite;
+  animation: spin9_x 1s linear infinite;
+}
+
+#preloader::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  border-top-color: #f27a3d;
+  box-shadow: 0 0 5px skyblue;
+  -webkit-animation: spin9 1.5s linear infinite;
+  animation: spin9 1.5s linear infinite;
+}
+@-webkit-keyframes spin9 {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin9 {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin9_x {
+  0% {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+@keyframes spin9_x {
+  0% {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
