@@ -54,6 +54,7 @@
     <div id="page">
       <a href="#" class="js-nav-toggle nav-toggle"><i></i></a>
       <aside id="aside" role="complementary" class="border js-fullheight">
+        <!--
         <div class="picture">
           <a href="/index.html"
             ><img
@@ -62,7 +63,8 @@
               alt="profile picture"
               loading="lazy"
           /></a>
-        </div>
+        </div> 
+      -->
         <h1 id="logo" loading="lazy">
           <a href="./index.html" loading="lazy">Daniel Freire</a>
         </h1>
@@ -163,7 +165,7 @@
                     <div class="form-group">
                       <input
                         type="text"
-                        name="name"
+                        name="Nome"
                         pattern="[A-Za-z\s]+"
                         class="form-control"
                         placeholder="Name"
@@ -174,6 +176,7 @@
                       <input
                         id="email"
                         type="email"
+                        name="Email"
                         class="form-control"
                         placeholder="Email"
                         required
@@ -183,9 +186,9 @@
                       <input
                         id="phone"
                         type="tel"
-                        name="phone"
+                        name="Contacto"
                         pattern="\^[\d+\s\-\(\)]*\"
-                        onkeyup="this.value = this.value.replace(/[^0-9-+()]/g, '')"
+                        onkeyup="this.value = this.value.replace(/[^0-9-+.\,\#\*()]/g, '')"
                         class="form-control"
                         placeholder="Phone"
                       />
@@ -194,7 +197,7 @@
                   <div class="col-md-6">
                     <div class="form-group">
                       <textarea
-                        name=""
+                        name="Mensagem"
                         id="message"
                         cols="30"
                         rows="7"
