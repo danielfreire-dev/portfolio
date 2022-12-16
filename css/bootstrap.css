@@ -6948,7 +6948,9 @@ button.close {
     display: inline !important;
   }
 }
-
+.termsfeed-com---nb-interstitial-overlay {
+	z-index: 10000 !important;
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-inline-block {
     display: inline-block !important;
