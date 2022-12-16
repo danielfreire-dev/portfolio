@@ -6951,6 +6951,12 @@ button.close {
 .termsfeed-com---nb-interstitial-overlay {
 	z-index: 10000 !important;
 }
+.termsfeed-com---palette-light .cc-nb-reject {
+	background-color: var(--red) !important;
+}
+.termsfeed-com---palette-light .cc-nb-changep {
+	background-color: #dbdbdb !important;
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-inline-block {
     display: inline-block !important;
