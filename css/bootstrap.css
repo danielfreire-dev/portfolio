@@ -6952,7 +6952,8 @@ button.close {
 	z-index: 10000 !important;
 }
 .termsfeed-com---palette-light .cc-nb-reject {
-	background-color: var(--red) !important;
+  color: #090909;
+	background-color: #f2f2f2 !important;
 }
 .termsfeed-com---palette-light .cc-nb-changep {
 	background-color: #dbdbdb !important;
