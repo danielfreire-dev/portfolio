@@ -1,0 +1,13 @@
+html,
+body {
+  margin: 0;
+}
+.instructions {
+  display: flex;
+  padding: 1% 40%;
+  background-color: #2456a3;
+  color: #f4f4f4;
+}
+#draw {
+  border: 2px 0px solid black;
+}

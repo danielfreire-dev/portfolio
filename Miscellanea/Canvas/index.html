@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-  <meta name="description" content="Online Canvas">
-  <meta name="keywords" content="Canvas, Canva, Online Canva, Online Canvas">
-  <meta name="author" content="Zany Marketing">
+    <meta charset="UTF-8" />
+    <meta name="description" content="Online Canvas" />
+    <meta
+      name="keywords"
+      content="Canvas, Canva, Online Canva, Online Canvas"
+    />
+    <meta name="author" content="Zany Marketing" />
     <title>HTML5 Canvas</title>
+    <link rel="stylesheet" href="./canvas_style.css" />
   </head>
   <body>
+    <div class="instructions">Use your mouse to draw.</div>
     <canvas id="draw" width="800" height="800"></canvas>
     <script>
       const canvas = document.querySelector("#draw");
       const ctx = canvas.getContext("2d");
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
-      ctx.strokeStyle = '#BADA55';
-      ctx.lineJoin = 'round';
-      ctx.lineCap = 'round';
+      ctx.strokeStyle = "#BADA55";
+      ctx.lineJoin = "round";
+      ctx.lineCap = "round";
       ctx.lineWidth = 100;
 
       let isDrawing = false;
       let lastX = 0;
       let lastY = 0;
       let hue = 0;
-      let direction = true; 
+      let direction = true;
 
       function draw(e) {
         if (!isDrawing) return; //stop the function when you're not clicking mo
@@ -43,31 +48,23 @@
         if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
           direction = !direction;
         }
-        if(direction) {
+        if (direction) {
           ctx.lineWidth++;
         } else {
           ctx.lineWidth--;
         }
-        
       }
 
-     
-      canvas.addEventListener('mousedown', (e) => {
+      canvas.addEventListener("mousedown", (e) => {
         isDrawing = true;
         [lastX, lastY] = [e.offsetX, e.offsetY];
       });
-      canvas.addEventListener('mousemove', draw);
-      
-      canvas.addEventListener('mouseup', () => isDrawing = false);
-      canvas.addEventListener('mouseout', () => isDrawing = false);
+      canvas.addEventListener("mousemove", draw);
 
+      canvas.addEventListener("mouseup", () => (isDrawing = false));
+      canvas.addEventListener("mouseout", () => (isDrawing = false));
     </script>
 
-    <style>
-      html,
-      body {
-        margin: 0;
-      }
-    </style>
+    <style></style>
   </body>
 </html>
