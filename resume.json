@@ -1,0 +1,70 @@
+[
+  {
+    "Applicant": {
+      "firstName": "Daniel",
+      "lastName": "Freire",
+      "website": "https://danielfreire.pages.dev",
+      "email": "daniel.freire@gmx.com",
+      "summary": ""
+    },
+    "skills": [
+      { "React": ["useState", "useEffect"] },
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Webpack",
+      "Digital Marketing",
+      "SEO"
+    ],
+    "employment": [
+      {
+        "company": "WebMasters LLC",
+        "role": "Digital Marketing Specialist",
+        "startDate": "July 2023",
+        "endDate": "Present",
+        "location": "Albuquerque, New Mexico, USA -> (Remote)",
+        "description": [
+          "- By implementing new AI-based workflows, was able to reduce campaign creation time by 30%.",
+          "- Collaborating with cross-functional teams to develop and execute comprehensive digital marketing strategies."
+        ]
+      },
+      {
+        "company": "Zany Marketing",
+        "role": "Marketing Analytics",
+        "startDate": "February 2020",
+        "endDate": "June 2023",
+        "location": "Lisbon, Portugal",
+        "description": [
+          "- Created and implemented Google Ads Scripts strategy increasing customer acquisitions by 20% and decreased cost per acquisition by 40%.",
+          "- Improved social media engagement by 43% through successful social media campaigns that boosted engagement rates."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "projectName": "Notes App",
+        "technologiesUsed": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "React",
+          "Firebase"
+        ],
+        "description": "With this project I created a note taking app with a markdown text editor and replaced local-storage with Firebase for online functionality."
+      },
+      {
+        "projectName": "Victor Freire Website",
+        "url": "https://victorfreire.pages.dev",
+        "technologiesUsed": ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+        "description0": "A captivating and dynamic portfolio website showcasing the artistic works of rising talent Victor Freire. Built using Vanilla HTML5, CSS3 with Bootstrap framework, and JavaScript, this responsive platform effectively highlights Freire's diverse body of work across various mediums while providing an engaging user experience.",
+        "description1": "I learned a lot by customizing to my needs and adding extra features such as a fully functional form and google tags and respective modals. Also had to add a loader with css to mask the page loading since the website is hosted on Cloudflare Pages' free tier.",
+        "description2": "As a student of web development this was one of my earliest full projects, so it was based off a template."
+      },
+      {
+        "projectName": "Daniel Freire's Portfolio",
+        "technologiesUsed": ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+        "description": "As a student of web development this was my earliest full website project, so it was based off a template. I learned a lot by customizing it to my needs and adding extra features such as a 404 page, fully functional form , google tags and respective modals. Also had to add a loader with css to mask the page loading since the website is hosted on Cloudflare Pages' free tier."
+      }
+    ]
+  }
+]
