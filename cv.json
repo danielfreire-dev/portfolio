@@ -1,0 +1,111 @@
+{
+	"Applicant": {
+		"name": "Daniel Freire",
+		"title": "Front End Developer",
+		"email": "daniel.freire@gmx.com",
+		"phone": "+351 9191 856 79",
+		"location": "Albuquerque, USA"
+	},
+
+	"about": {
+		"description": "A seasoned digital marketer with a passion for web development driven by his desire to empower businesses. He's learning to code and build websites that can help companies thrive online."
+	},
+
+	"experience": [
+		{
+			"company": "WebMasters LLC",
+			"position": "Digital Marketing Specialist (remote)",
+			"start_date": "Jul. 2023 - Present",
+			"summary": [
+				"Implemented AI-based workflows",
+				"Collaborated with cross-functional teams"
+			]
+		},
+		{
+			"company": "Zany Marketing",
+			"position": "Paid Media",
+			"start_date": "Feb. 2020 - Jun. 2023",
+			"summary": [
+				"Created and implemented Google Ads Scripts strategy",
+				"Improved social media engagement"
+			]
+		}
+	],
+
+	"certifications": [
+		{
+			"title": "freeCodeCamp Certifications",
+			"technologies": [
+				"Responsive Web Design",
+				"JavaScript Algorithms and Data Structures",
+				"Scientific Computing with Python"
+			]
+		}
+	],
+
+	"skills": [
+		{
+			"name": "Programming Languages",
+			"technologies": ["HTML5", "CSS3", "JavaScript"]
+		},
+		{
+			"name": "Problem-Solving",
+			"technologies": ["Problem-Solving"]
+		},
+		{
+			"name": "Strategic Planning",
+			"technologies": ["Strategic Planning"]
+		},
+		{
+			"name": "Time Management",
+			"technologies": ["Time Management"]
+		}
+	],
+
+	"projects": [
+		{
+			"title": "Quizzical",
+			"summary": [
+				"Utilizes data from Open Trivia Database",
+				"Showcases understanding of React components and props"
+			],
+			"technologies": [
+				"useState and useEffect React Hooks",
+				"React components and props"
+			],
+			"challenges": [
+				"Storing API data efficiently",
+				"Managing side effects with useEffect"
+			]
+		},
+		{
+			"title": "Tenzi",
+			"summary": [
+				"Leverages useState and useEffect React Hooks for user data storage and real-time updates",
+				"Creates a fast-paced game that requires quick reflexes"
+			],
+			"technologies": [
+				"useState and useEffect React Hooks",
+				"React components and props"
+			],
+			"challenges": [
+				"Storing user data efficiently",
+				"Managing side effects with useEffect"
+			]
+		},
+		{
+			"title": "Notes App",
+			"summary": [
+				"Built with dynamic front end and real-time data synchronization using Firebase's Realtime Database"
+			],
+			"technologies": [
+				"useState and useEffect React Hooks",
+				"React components and props"
+			],
+			"challenges": [
+				"Building a scalable and interactive user interface",
+				"Working with databases and real-time updates"
+			]
+		}
+	]
+}
