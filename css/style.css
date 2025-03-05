@@ -345,13 +345,16 @@ figure figcaption {
 	color: rgba(0, 0, 0, 0.6);
 	padding: 0 20px;
 }
-
-.footer-icon a i {
-	display: table-cell;
-	vertical-align: middle;
+.footer-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.75em;
+}
+.footer-icon a img {
 	color: #f27a3d;
 	font-size: 1.5em;
-	height: 2em;
+	height: 1em;
 }
 
 @media screen and (max-width: 768px) {
